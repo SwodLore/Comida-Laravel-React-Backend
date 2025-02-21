@@ -41,7 +41,7 @@ class ProductoController extends Controller
         $producto->save();
         return [
             'producto' => $producto,
-        ];
+        ];  
     }
 
     /**
